@@ -1,0 +1,28 @@
+package com.demo;
+
+public class Area {
+	public static void main(String[] args) {
+	// Area of rectangle 
+	int length = 15;
+	int breadth = 10;
+	
+	int area_rectangle = (length * breadth);
+	System.out.println("Area of Rectangle : "+ area_rectangle);
+	
+	//Area of triangle
+	float base=9.5f;
+	float height = 10.5f;
+	float area_tri=((1/2)*(base*height));
+	System.out.println("Area of triangle:"+ area_tri);
+	
+	//Area of square
+	int side=4;
+	System.out.println("Area of square:"+ (side*side));
+	
+	//Area of circle
+	double pi=3.14;
+	double radius=8.0;
+	double area_circle=(pi*radius*radius);
+	System.out.println("Area of circle:"+area_circle);
+	
+}}
